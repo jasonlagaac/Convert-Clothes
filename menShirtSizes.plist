@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>USUK</key>
+	<array>
+		<string>XXS</string>
+		<string>XS</string>
+		<string>S</string>
+		<string>M</string>
+		<string>L</string>
+		<string>XL</string>
+		<string>XXL</string>
+	</array>
+	<key>EU</key>
+	<array>
+		<string>81-86</string>
+		<string>86-91</string>
+		<string>91-96</string>
+		<string>96-101</string>
+		<string>101-106</string>
+		<string>106-111</string>
+		<string>111-116</string>
+	</array>
+	<key>USUK#</key>
+	<array>
+		<string>14</string>
+		<string>14.5</string>
+		<string>15</string>
+		<string>16</string>
+		<string>17</string>
+		<string>17.5</string>
+		<string>18</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ClothingConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ClothingConverterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		590E065C1251F9D500981721 /* USUKN.png in Resources */ = {isa = PBXBuildFile; fileRef = 590E065A1251F9D500981721 /* USUKN.png */; };
+		590E065D1251F9D500981721 /* USUK#.png in Resources */ = {isa = PBXBuildFile; fileRef = 590E065B1251F9D500981721 /* USUK#.png */; };
+		59154D9412530775002F58A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 59154D9312530775002F58A0 /* Default.png */; };
+		5918F34A119D447C00059D43 /* menShoeSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5918F349119D447C00059D43 /* menShoeSizes.plist */; };
+		5918F34F119D8C6D00059D43 /* menPantSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5918F34E119D8C6D00059D43 /* menPantSizes.plist */; };
+		5918F352119D8E9C00059D43 /* menShirtSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5918F351119D8E9C00059D43 /* menShirtSizes.plist */; };
+		5918F359119D93A000059D43 /* menCoatSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5918F358119D93A000059D43 /* menCoatSizes.plist */; };
+		5928365D119C34A7000A0E1D /* womenClothingSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5928365C119C34A7000A0E1D /* womenClothingSizes.plist */; };
+		59283666119C4476000A0E1D /* womenShoeSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59283665119C4476000A0E1D /* womenShoeSizes.plist */; };
+		594ADDE211CB4A25006E6A06 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 594ADDE111CB4A25006E6A06 /* whiteButton.png */; };
+		594ADDEC11CB4A4E006E6A06 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 594ADDEB11CB4A4E006E6A06 /* blueButton.png */; };
+		594F9A0F11C8855300051F32 /* AU.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A0E11C8855300051F32 /* AU.png */; };
+		594F9A1311C8857800051F32 /* EU.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A1211C8857800051F32 /* EU.png */; };
+		594F9A3311C887AF00051F32 /* FR.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A3211C887AF00051F32 /* FR.png */; };
+		594F9A3511C887B400051F32 /* DE.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A3411C887B400051F32 /* DE.png */; };
+		594F9A3711C887BF00051F32 /* IT.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A3611C887BF00051F32 /* IT.png */; };
+		594F9A3911C887C400051F32 /* JP.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A3811C887C400051F32 /* JP.png */; };
+		594F9A3B11C887D000051F32 /* MX.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A3A11C887D000051F32 /* MX.png */; };
+		594F9A3D11C8881000051F32 /* KR.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9A3C11C8881000051F32 /* KR.png */; };
+		594F9ADB11C8C3FA00051F32 /* UK.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9ADA11C8C3FA00051F32 /* UK.png */; };
+		594F9ADE11C8E3A400051F32 /* countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 594F9ADD11C8E3A400051F32 /* countries.plist */; };
+		594F9B9711C9E64800051F32 /* US.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9B9611C9E64800051F32 /* US.png */; };
+		594F9BC211C9E83500051F32 /* USN.png in Resources */ = {isa = PBXBuildFile; fileRef = 594F9BC111C9E83500051F32 /* USN.png */; };
+		59764BDE1251EA92002E938C /* womensHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 59764BDC1251EA92002E938C /* womensHeader.png */; };
+		59764BDF1251EA92002E938C /* mensHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 59764BDD1251EA92002E938C /* mensHeader.png */; };
+		59764C071251F3B9002E938C /* USUK.png in Resources */ = {isa = PBXBuildFile; fileRef = 59764C061251F3B9002E938C /* USUK.png */; };
+		59807954126D880D00EDAC05 /* icon_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 59807953126D880D00EDAC05 /* icon_iPhone.png */; };
+		5993FD1C12530B9700E014A5 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 5993FD1B12530B9700E014A5 /* header.png */; };
+		59A6E51311CB59080058813E /* women.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A6E51111CB59080058813E /* women.png */; };
+		59A6E51411CB59080058813E /* men.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A6E51211CB59080058813E /* men.png */; };
+		59A6E52111CB600F0058813E /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A6E52011CB600F0058813E /* about.png */; };
+		59A6E53C11CB713B0058813E /* thinkinghatheader.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A6E53B11CB713B0058813E /* thinkinghatheader.png */; };
+		59C0478412A4B0840003146C /* womenPantSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59C0478312A4B0840003146C /* womenPantSizes.plist */; };
+		59DCF5F7119CD13D008B4095 /* womenBraSizes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59DCF5F6119CD13D008B4095 /* womenBraSizes.plist */; };
+		59E093C1119BA052003B50B9 /* WomensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E093BF119BA052003B50B9 /* WomensViewController.m */; };
+		59E093C2119BA052003B50B9 /* WomensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59E093C0119BA052003B50B9 /* WomensViewController.xib */; };
+		59E093C6119BA062003B50B9 /* MensViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E093C4119BA062003B50B9 /* MensViewController.m */; };
+		59E093C7119BA062003B50B9 /* MensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59E093C5119BA062003B50B9 /* MensViewController.xib */; };
+		59E093DB119BA13F003B50B9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E093D9119BA13F003B50B9 /* AboutViewController.m */; };
+		59E093DC119BA13F003B50B9 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59E093DA119BA13F003B50B9 /* AboutViewController.xib */; };
+		59EFC6461253CA6C00418EB7 /* icon_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 59EFC6451253CA6C00418EB7 /* icon_iPad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ClothingConverterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothingConverterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ClothingConverterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothingConverterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ClothingConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClothingConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ClothingConverter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothingConverter_Prefix.pch; sourceTree = "<group>"; };
+		590E065A1251F9D500981721 /* USUKN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USUKN.png; sourceTree = "<group>"; };
+		590E065B1251F9D500981721 /* USUK#.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "USUK#.png"; sourceTree = "<group>"; };
+		59154D9312530775002F58A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5918F349119D447C00059D43 /* menShoeSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menShoeSizes.plist; sourceTree = "<group>"; };
+		5918F34E119D8C6D00059D43 /* menPantSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menPantSizes.plist; sourceTree = "<group>"; };
+		5918F351119D8E9C00059D43 /* menShirtSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menShirtSizes.plist; sourceTree = "<group>"; };
+		5918F358119D93A000059D43 /* menCoatSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menCoatSizes.plist; sourceTree = "<group>"; };
+		5928365C119C34A7000A0E1D /* womenClothingSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = womenClothingSizes.plist; sourceTree = "<group>"; };
+		59283665119C4476000A0E1D /* womenShoeSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = womenShoeSizes.plist; sourceTree = "<group>"; };
+		594ADDE111CB4A25006E6A06 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		594ADDEB11CB4A4E006E6A06 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		594F9A0E11C8855300051F32 /* AU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AU.png; sourceTree = "<group>"; };
+		594F9A1211C8857800051F32 /* EU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EU.png; sourceTree = "<group>"; };
+		594F9A3211C887AF00051F32 /* FR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FR.png; sourceTree = "<group>"; };
+		594F9A3411C887B400051F32 /* DE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DE.png; sourceTree = "<group>"; };
+		594F9A3611C887BF00051F32 /* IT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IT.png; sourceTree = "<group>"; };
+		594F9A3811C887C400051F32 /* JP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JP.png; sourceTree = "<group>"; };
+		594F9A3A11C887D000051F32 /* MX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MX.png; sourceTree = "<group>"; };
+		594F9A3C11C8881000051F32 /* KR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KR.png; sourceTree = "<group>"; };
+		594F9ADA11C8C3FA00051F32 /* UK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UK.png; sourceTree = "<group>"; };
+		594F9ADD11C8E3A400051F32 /* countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = countries.plist; sourceTree = "<group>"; };
+		594F9B9611C9E64800051F32 /* US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = US.png; sourceTree = "<group>"; };
+		594F9BC111C9E83500051F32 /* USN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USN.png; sourceTree = "<group>"; };
+		59764BDC1251EA92002E938C /* womensHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = womensHeader.png; sourceTree = "<group>"; };
+		59764BDD1251EA92002E938C /* mensHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mensHeader.png; sourceTree = "<group>"; };
+		59764C061251F3B9002E938C /* USUK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USUK.png; sourceTree = "<group>"; };
+		59807953126D880D00EDAC05 /* icon_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iPhone.png; sourceTree = "<group>"; };
+		5993FD1B12530B9700E014A5 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		59A6E51111CB59080058813E /* women.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = women.png; sourceTree = "<group>"; };
+		59A6E51211CB59080058813E /* men.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = men.png; sourceTree = "<group>"; };
+		59A6E52011CB600F0058813E /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		59A6E53B11CB713B0058813E /* thinkinghatheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thinkinghatheader.png; sourceTree = "<group>"; };
+		59C0478312A4B0840003146C /* womenPantSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = womenPantSizes.plist; sourceTree = "<group>"; };
+		59DCF5F6119CD13D008B4095 /* womenBraSizes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = womenBraSizes.plist; sourceTree = "<group>"; };
+		59E093BE119BA052003B50B9 /* WomensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WomensViewController.h; sourceTree = "<group>"; };
+		59E093BF119BA052003B50B9 /* WomensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WomensViewController.m; sourceTree = "<group>"; };
+		59E093C0119BA052003B50B9 /* WomensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WomensViewController.xib; path = Classes/WomensViewController.xib; sourceTree = "<group>"; };
+		59E093C3119BA062003B50B9 /* MensViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensViewController.h; sourceTree = "<group>"; };
+		59E093C4119BA062003B50B9 /* MensViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensViewController.m; sourceTree = "<group>"; };
+		59E093C5119BA062003B50B9 /* MensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MensViewController.xib; path = Classes/MensViewController.xib; sourceTree = "<group>"; };
+		59E093D8119BA13F003B50B9 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		59E093D9119BA13F003B50B9 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		59E093DA119BA13F003B50B9 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		59EFC6451253CA6C00418EB7 /* icon_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_iPad.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ClothingConverter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ClothingConverter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ClothingConverterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ClothingConverterAppDelegate.m */,
+				59E093BE119BA052003B50B9 /* WomensViewController.h */,
+				59E093BF119BA052003B50B9 /* WomensViewController.m */,
+				59E093C3119BA062003B50B9 /* MensViewController.h */,
+				59E093C4119BA062003B50B9 /* MensViewController.m */,
+				59E093D8119BA13F003B50B9 /* AboutViewController.h */,
+				59E093D9119BA13F003B50B9 /* AboutViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ClothingConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ClothingConverter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59154D9312530775002F58A0 /* Default.png */,
+				5928365A119C348C000A0E1D /* Images */,
+				5918F343119D444D00059D43 /* MensData */,
+				5928365B119C3492000A0E1D /* WomensData */,
+				59283659119C3480000A0E1D /* Views */,
+				8D1107310486CEB800E47090 /* ClothingConverter-Info.plist */,
+				594F9ADD11C8E3A400051F32 /* countries.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5918F343119D444D00059D43 /* MensData */ = {
+			isa = PBXGroup;
+			children = (
+				5918F351119D8E9C00059D43 /* menShirtSizes.plist */,
+				5918F349119D447C00059D43 /* menShoeSizes.plist */,
+				5918F34E119D8C6D00059D43 /* menPantSizes.plist */,
+				5918F358119D93A000059D43 /* menCoatSizes.plist */,
+			);
+			name = MensData;
+			sourceTree = "<group>";
+		};
+		59283659119C3480000A0E1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59E093DA119BA13F003B50B9 /* AboutViewController.xib */,
+				59E093C5119BA062003B50B9 /* MensViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				59E093C0119BA052003B50B9 /* WomensViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5928365A119C348C000A0E1D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				59807953126D880D00EDAC05 /* icon_iPhone.png */,
+				59EFC6451253CA6C00418EB7 /* icon_iPad.png */,
+				5993FD1B12530B9700E014A5 /* header.png */,
+				59A6E53B11CB713B0058813E /* thinkinghatheader.png */,
+				59A6E52011CB600F0058813E /* about.png */,
+				59A6E51111CB59080058813E /* women.png */,
+				59A6E51211CB59080058813E /* men.png */,
+				59764BDC1251EA92002E938C /* womensHeader.png */,
+				59764BDD1251EA92002E938C /* mensHeader.png */,
+				594ADDEB11CB4A4E006E6A06 /* blueButton.png */,
+				594ADDE111CB4A25006E6A06 /* whiteButton.png */,
+				594F99FD11C884F300051F32 /* Flags */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5928365B119C3492000A0E1D /* WomensData */ = {
+			isa = PBXGroup;
+			children = (
+				59C0478312A4B0840003146C /* womenPantSizes.plist */,
+				5928365C119C34A7000A0E1D /* womenClothingSizes.plist */,
+				59283665119C4476000A0E1D /* womenShoeSizes.plist */,
+				59DCF5F6119CD13D008B4095 /* womenBraSizes.plist */,
+			);
+			name = WomensData;
+			sourceTree = "<group>";
+		};
+		594F99FD11C884F300051F32 /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				594F9A3C11C8881000051F32 /* KR.png */,
+				594F9ADA11C8C3FA00051F32 /* UK.png */,
+				59764C061251F3B9002E938C /* USUK.png */,
+				594F9BC111C9E83500051F32 /* USN.png */,
+				594F9B9611C9E64800051F32 /* US.png */,
+				590E065A1251F9D500981721 /* USUKN.png */,
+				590E065B1251F9D500981721 /* USUK#.png */,
+				594F9A3411C887B400051F32 /* DE.png */,
+				594F9A3211C887AF00051F32 /* FR.png */,
+				594F9A1211C8857800051F32 /* EU.png */,
+				594F9A3A11C887D000051F32 /* MX.png */,
+				594F9A3811C887C400051F32 /* JP.png */,
+				594F9A3611C887BF00051F32 /* IT.png */,
+				594F9A0E11C8855300051F32 /* AU.png */,
+			);
+			name = Flags;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ClothingConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ClothingConverter" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClothingConverter;
+			productName = ClothingConverter;
+			productReference = 1D6058910D05DD3D006BFB54 /* ClothingConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "clothingConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ClothingConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				59E093C2119BA052003B50B9 /* WomensViewController.xib in Resources */,
+				59E093C7119BA062003B50B9 /* MensViewController.xib in Resources */,
+				59E093DC119BA13F003B50B9 /* AboutViewController.xib in Resources */,
+				5928365D119C34A7000A0E1D /* womenClothingSizes.plist in Resources */,
+				59283666119C4476000A0E1D /* womenShoeSizes.plist in Resources */,
+				59DCF5F7119CD13D008B4095 /* womenBraSizes.plist in Resources */,
+				5918F34A119D447C00059D43 /* menShoeSizes.plist in Resources */,
+				5918F34F119D8C6D00059D43 /* menPantSizes.plist in Resources */,
+				5918F352119D8E9C00059D43 /* menShirtSizes.plist in Resources */,
+				5918F359119D93A000059D43 /* menCoatSizes.plist in Resources */,
+				594F9A0F11C8855300051F32 /* AU.png in Resources */,
+				594F9A1311C8857800051F32 /* EU.png in Resources */,
+				594F9A3311C887AF00051F32 /* FR.png in Resources */,
+				594F9A3511C887B400051F32 /* DE.png in Resources */,
+				594F9A3711C887BF00051F32 /* IT.png in Resources */,
+				594F9A3911C887C400051F32 /* JP.png in Resources */,
+				594F9A3B11C887D000051F32 /* MX.png in Resources */,
+				594F9A3D11C8881000051F32 /* KR.png in Resources */,
+				594F9ADB11C8C3FA00051F32 /* UK.png in Resources */,
+				594F9ADE11C8E3A400051F32 /* countries.plist in Resources */,
+				594F9B9711C9E64800051F32 /* US.png in Resources */,
+				594F9BC211C9E83500051F32 /* USN.png in Resources */,
+				594ADDE211CB4A25006E6A06 /* whiteButton.png in Resources */,
+				594ADDEC11CB4A4E006E6A06 /* blueButton.png in Resources */,
+				59A6E51311CB59080058813E /* women.png in Resources */,
+				59A6E51411CB59080058813E /* men.png in Resources */,
+				59A6E52111CB600F0058813E /* about.png in Resources */,
+				59A6E53C11CB713B0058813E /* thinkinghatheader.png in Resources */,
+				59764BDE1251EA92002E938C /* womensHeader.png in Resources */,
+				59764BDF1251EA92002E938C /* mensHeader.png in Resources */,
+				59764C071251F3B9002E938C /* USUK.png in Resources */,
+				590E065C1251F9D500981721 /* USUKN.png in Resources */,
+				590E065D1251F9D500981721 /* USUK#.png in Resources */,
+				59154D9412530775002F58A0 /* Default.png in Resources */,
+				5993FD1C12530B9700E014A5 /* header.png in Resources */,
+				59EFC6461253CA6C00418EB7 /* icon_iPad.png in Resources */,
+				59807954126D880D00EDAC05 /* icon_iPhone.png in Resources */,
+				59C0478412A4B0840003146C /* womenPantSizes.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ClothingConverterAppDelegate.m in Sources */,
+				59E093C1119BA052003B50B9 /* WomensViewController.m in Sources */,
+				59E093C6119BA062003B50B9 /* MensViewController.m in Sources */,
+				59E093DB119BA13F003B50B9 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ClothingConverter_Prefix.pch;
+				INFOPLIST_FILE = "ClothingConverter-Info.plist";
+				PRODUCT_NAME = ClothingConverter;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		598EE15812A4B5D70066E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lagaac";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lagaac";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "42A78D2D-922D-4395-9F8B-CFFCAF85066B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "42A78D2D-922D-4395-9F8B-CFFCAF85066B";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Release;
+		};
+		598EE15912A4B5D70066E240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ClothingConverter_Prefix.pch;
+				INFOPLIST_FILE = "ClothingConverter-Info.plist";
+				PRODUCT_NAME = ClothingConverter;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Lagaac (GF24Q539H8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Lagaac (GF24Q539H8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ClothingConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				598EE15912A4B5D70066E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "clothingConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				598EE15812A4B5D70066E240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
